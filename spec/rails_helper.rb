@@ -23,6 +23,7 @@ require 'capybara/rails'
 #
 # Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 require 'support/database_cleaner'
+require 'support/factory_girl'
 
 # Checks for pending migration and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
