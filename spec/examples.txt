@@ -3,6 +3,6 @@ example_id                                         | status | run_time        |
 ./spec/controllers/leads_controller_spec.rb[1:1:1] | passed | 0.03048 seconds |
 ./spec/features/user_creates_lead_spec.rb[1:1]     | passed | 0.72893 seconds |
 ./spec/helpers/application_helper_spec.rb[1:1]     | passed | 0.00666 seconds |
-./spec/models/lead_spec.rb[1:1]                    | failed | 0.00141 seconds |
+./spec/models/lead_spec.rb[1:1]                    | passed | 0.0148 seconds  |
 ./spec/requests/api/v1/leads_spec.rb[1:1]          | passed | 0.11551 seconds |
 ./spec/views/leads/show.html.erb_spec.rb[1:1:1]    | passed | 0.03875 seconds |
