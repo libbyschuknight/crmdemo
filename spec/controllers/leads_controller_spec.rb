@@ -14,9 +14,10 @@ RSpec.describe LeadsController do
   describe "POST #create" do
     context "when lead is invalid" do
       it "re-renders the form" do
-        lead_attr = attributes_for(:lead, :invalid)
+        invalid_lead = double(save: false)
+        allow(Lead).to receive(:new).and_return(invalid_lead)
 
-        post :create, lead: lead_attr
+        post :create, lead: { attribute: "value" }
 
         expect(response).to render_template :new
       end
