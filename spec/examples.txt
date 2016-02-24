@@ -1,11 +1,11 @@
 example_id                                           | status  | run_time        |
 ---------------------------------------------------- | ------- | --------------- |
-./spec/controllers/leads_controller_spec.rb[1:1:1]   | passed  | 0.01574 seconds |
-./spec/controllers/leads_controller_spec.rb[1:2:1:1] | passed  | 0.0324 seconds  |
-./spec/controllers/leads_controller_spec.rb[1:2:2:1] | passed  | 0.00436 seconds |
-./spec/features/user_creates_lead_spec.rb[1:1]       | passed  | 0.22827 seconds |
-./spec/helpers/application_helper_spec.rb[1:1]       | passed  | 0.00415 seconds |
-./spec/mailers/lead_mailer_spec.rb[1:1]              | pending | 0.00002 seconds |
-./spec/models/lead_spec.rb[1:1]                      | passed  | 0.0086 seconds  |
-./spec/requests/api/v1/leads_spec.rb[1:1]            | passed  | 0.06652 seconds |
-./spec/views/leads/show.html.erb_spec.rb[1:1:1]      | passed  | 0.01709 seconds |
+./spec/controllers/leads_controller_spec.rb[1:1:1]   | passed  | 0.00914 seconds |
+./spec/controllers/leads_controller_spec.rb[1:2:1:1] | passed  | 0.03018 seconds |
+./spec/controllers/leads_controller_spec.rb[1:2:2:1] | passed  | 0.00688 seconds |
+./spec/features/user_creates_lead_spec.rb[1:1]       | passed  | 0.27129 seconds |
+./spec/helpers/application_helper_spec.rb[1:1]       | passed  | 0.00464 seconds |
+./spec/mailers/lead_mailer_spec.rb[1:1]              | pending | 0.00001 seconds |
+./spec/models/lead_spec.rb[1:1]                      | passed  | 0.01163 seconds |
+./spec/requests/api/v1/leads_spec.rb[1:1]            | passed  | 0.04474 seconds |
+./spec/views/leads/show.html.erb_spec.rb[1:1:1]      | passed  | 0.0046 seconds  |
