@@ -9,7 +9,8 @@ class LeadsController < ApplicationController
     @lead = Lead.new(lead_params)
 
     if @lead.save
-      redirect_to @lead, notice: 'Lead was successfully created.'
+      LeadMailer.new_lead(@lead)      
+      redirect_to lead_path(@lead), notice: 'Lead was successfully created.'
     else
       render :new
     end
